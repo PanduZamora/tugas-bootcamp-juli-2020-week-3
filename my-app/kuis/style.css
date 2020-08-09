@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    background-image: url(./pattern.jpg);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: url(./movie.jpg);
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 100px;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    border-bottom: 1px solid lightgrey;
+}
+
+h5 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
